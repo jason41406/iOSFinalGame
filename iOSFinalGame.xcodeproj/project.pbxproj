@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E81A1461EFB228A000F768B /* WantGameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81A1451EFB228A000F768B /* WantGameTableViewController.swift */; };
+		9E81A1481EFB22A2000F768B /* AddWantGameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81A1471EFB22A2000F768B /* AddWantGameTableViewController.swift */; };
+		9E81A14A1EFB22BF000F768B /* WantGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E81A1491EFB22BF000F768B /* WantGameViewController.swift */; };
 		9E8561251EF76F3B009B38DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8561241EF76F3B009B38DB /* AppDelegate.swift */; };
 		9E8561271EF76F3B009B38DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8561261EF76F3B009B38DB /* ViewController.swift */; };
 		9E85612A1EF76F3B009B38DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8561281EF76F3B009B38DB /* Main.storyboard */; };
 		9E85612C1EF76F3B009B38DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E85612B1EF76F3B009B38DB /* Assets.xcassets */; };
 		9E85612F1EF76F3B009B38DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E85612D1EF76F3B009B38DB /* LaunchScreen.storyboard */; };
+		9EF0D56A1EF9114B00F3BFF0 /* PlayingGameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0D5691EF9114B00F3BFF0 /* PlayingGameTableViewController.swift */; };
+		9EF0D56C1EF9116700F3BFF0 /* AddPlayingGameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0D56B1EF9116700F3BFF0 /* AddPlayingGameTableViewController.swift */; };
+		9EF0D56E1EF9117E00F3BFF0 /* PlayingGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0D56D1EF9117E00F3BFF0 /* PlayingGameViewController.swift */; };
+		9EF0D5701EF915A900F3BFF0 /* PlayingGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0D56F1EF915A900F3BFF0 /* PlayingGameTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E81A1451EFB228A000F768B /* WantGameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WantGameTableViewController.swift; sourceTree = "<group>"; };
+		9E81A1471EFB22A2000F768B /* AddWantGameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWantGameTableViewController.swift; sourceTree = "<group>"; };
+		9E81A1491EFB22BF000F768B /* WantGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WantGameViewController.swift; sourceTree = "<group>"; };
 		9E8561211EF76F3B009B38DB /* iOSFinalGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFinalGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8561241EF76F3B009B38DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E8561261EF76F3B009B38DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		9E85612B1EF76F3B009B38DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E85612E1EF76F3B009B38DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E8561301EF76F3B009B38DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF0D5691EF9114B00F3BFF0 /* PlayingGameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingGameTableViewController.swift; sourceTree = "<group>"; };
+		9EF0D56B1EF9116700F3BFF0 /* AddPlayingGameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayingGameTableViewController.swift; sourceTree = "<group>"; };
+		9EF0D56D1EF9117E00F3BFF0 /* PlayingGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingGameViewController.swift; sourceTree = "<group>"; };
+		9EF0D56F1EF915A900F3BFF0 /* PlayingGameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingGameTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				9E8561241EF76F3B009B38DB /* AppDelegate.swift */,
 				9E8561261EF76F3B009B38DB /* ViewController.swift */,
 				9E8561281EF76F3B009B38DB /* Main.storyboard */,
+				9E81A1451EFB228A000F768B /* WantGameTableViewController.swift */,
+				9E81A1471EFB22A2000F768B /* AddWantGameTableViewController.swift */,
+				9E81A1491EFB22BF000F768B /* WantGameViewController.swift */,
+				9EF0D56F1EF915A900F3BFF0 /* PlayingGameTableViewCell.swift */,
+				9EF0D56B1EF9116700F3BFF0 /* AddPlayingGameTableViewController.swift */,
+				9EF0D56D1EF9117E00F3BFF0 /* PlayingGameViewController.swift */,
+				9EF0D5691EF9114B00F3BFF0 /* PlayingGameTableViewController.swift */,
 				9E85612B1EF76F3B009B38DB /* Assets.xcassets */,
 				9E85612D1EF76F3B009B38DB /* LaunchScreen.storyboard */,
 				9E8561301EF76F3B009B38DB /* Info.plist */,
@@ -136,7 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF0D5701EF915A900F3BFF0 /* PlayingGameTableViewCell.swift in Sources */,
+				9EF0D56C1EF9116700F3BFF0 /* AddPlayingGameTableViewController.swift in Sources */,
+				9EF0D56E1EF9117E00F3BFF0 /* PlayingGameViewController.swift in Sources */,
+				9E81A14A1EFB22BF000F768B /* WantGameViewController.swift in Sources */,
+				9E81A1481EFB22A2000F768B /* AddWantGameTableViewController.swift in Sources */,
+				9EF0D56A1EF9114B00F3BFF0 /* PlayingGameTableViewController.swift in Sources */,
 				9E8561271EF76F3B009B38DB /* ViewController.swift in Sources */,
+				9E81A1461EFB228A000F768B /* WantGameTableViewController.swift in Sources */,
 				9E8561251EF76F3B009B38DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +325,7 @@
 				9E8561351EF76F3B009B38DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
